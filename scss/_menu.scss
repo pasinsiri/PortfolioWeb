@@ -91,10 +91,11 @@
         }
 
         .portrait{
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
             // The image needs to be cropped.
-            background: url('../img/self.jpg');
+            background: url('../img/menu_image.jpg');
+            background-size: contain;
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }

@@ -83,6 +83,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image{
+        width: 30vh;
         grid-area: bioimage;
         margin: auto;
         border-radius: 50%;
