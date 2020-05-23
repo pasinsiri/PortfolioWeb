@@ -3,7 +3,7 @@
 
 }
 
-// Desktopsand Laptops
+// Desktops and Laptops
 @include mediaLg{
 
 }
@@ -47,6 +47,17 @@
         .portrait{
             background: url('../img/self.jpg');
         }
+    }
+
+    .about-info{
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
     }
 }
 
