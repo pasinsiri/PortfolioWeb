@@ -96,6 +96,7 @@
             // The image needs to be cropped.
             background: url('../img/menu_image.jpg');
             background-size: contain;
+            
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
@@ -132,8 +133,8 @@
 }
 
 // Delay each nav item slide by 0.1 second
-@for$x from 1 through 5 { // we have 4 nav items
+@for$x from 1 through 6 { // we have 6 nav items
     .nav-item:nth-child(#{$x}){
-        transition-delay: $x * 0.1s;
+        transition-delay: $x * 0.05s;
     }
 }
