@@ -61,14 +61,14 @@ html {
       background: url("../img/menu_image.jpg");
       background-size: contain;
       border-radius: 50%;
-      border: solid 3px rgb(234, 7, 241); }
+      border: solid 3px rgb(7, 241, 112); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: rgb(234, 7, 241); }
+      color: rgb(7, 241, 112); }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -80,7 +80,7 @@ html {
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: rgb(234, 7, 241); }
+      color: rgb(7, 241, 112); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.05s; }
@@ -145,7 +145,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: rgb(234, 7, 241); }
+  color: rgb(7, 241, 112); }
 
 main {
   padding: 4rem;
@@ -155,7 +155,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: rgb(234, 7, 241);
+        color: rgb(7, 241, 112);
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -172,7 +172,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: rgb(234, 7, 241) 3px solid; }
+    border: rgb(7, 241, 112) 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -185,7 +185,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: rgb(234, 7, 241) 5px solid;
+    border-bottom: rgb(7, 241, 112) 5px solid;
     font-size: 1.2rem; }
 
 .projects {
@@ -197,7 +197,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: rgb(234, 7, 241);
+      border-color: rgb(7, 241, 112);
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -214,7 +214,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.8rem 2rem;
-      background: rgb(234, 7, 241);
+      background: rgb(7, 241, 112);
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -225,7 +225,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: rgb(234, 7, 241);
+    background: rgb(7, 241, 112);
     color: #000; }
 
 .btn-dark {
