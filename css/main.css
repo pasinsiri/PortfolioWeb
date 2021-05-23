@@ -117,7 +117,7 @@ body {
     background-position: center;}
     body#bg-img:after {
       content: '';
-      position: absolute;
+      position:fixed;
       top: 0;
       right: 0;
       width: 100%;
